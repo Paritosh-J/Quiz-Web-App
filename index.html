@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Web App</title>
+    <link rel="stylesheet" href="./beauty.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjW-qEUH-VVyp5e7xK5Xhsmx2u5DH-iSakw&usqp=CAU" type="image/x-icon">
+  </head>
+  <body>
+    <h1 style="color: white; text-align: center;">Quiz Web App</h1>
+    <div class="container">
+      <div class="score">
+        <span id="userScore">0</span>
+        <span>/</span>
+        <span id="totalScore">0</span>
+      </div>
+
+      <div class="content" id="qArea">
+        <div id="qText"></div>
+        <div class="options">
+          <button class="btn btnOption" id="True">True</button>
+          <button class="btn btnOption" id="False">False</button>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn btnRestart" id="restart">Restart</button>
+        <button class="btn btnPrev" id="prev">Prev</button>
+        <button class="btn btnNext" id="next">Next</button>
+        <button class="btn btnSubmit" id="submit">SUBMIT</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="./quizCode.js"></script>
+</html>
